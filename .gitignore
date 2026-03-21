@@ -9,3 +9,7 @@ out/
 
 .env
 test.txt
+*.txt
+*.log
+foundry.lock
+.DS_Store

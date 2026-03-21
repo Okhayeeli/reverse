@@ -23,7 +23,7 @@ contract MockAerodromePositionManager is ERC721Enumerable, IAerodromeNonfungible
     }
 
     mapping(uint256 => Position) internal _positions;
-    address public immutable override deployer;
+    address public immutable deployer;
     address public immutable override factory;
     address public immutable override WETH9;
     uint256 public nextIncreaseAmount0;
